@@ -1,12 +1,15 @@
 package main
 
-func HelloWorld() string {
-	//Insert your code here
+import "fmt"
 
-	//Do not remove this line here
+func HelloWorld() string {
+	// Insert your code here
+	messageHelloWorld := "Hey there ! I am Go."
+	// Do not remove this line here
 	return messageHelloWorld
 }
 
 func main() {
-	HelloWorld()
+	// HelloWorld()
+	fmt.Println(HelloWorld())
 }
